@@ -1,4 +1,4 @@
-# codebits-api
+# Concussion-JWT
 
 API for a microblogging platform
 
