@@ -7,13 +7,13 @@ API for a microblogging platform
 Clone the project repository by running the command below if you use SSH
 
 ```bash
-git clone git@github.com:ammezie/codebits-api.git
+git clone https://github.com/Ravi1mca/Graphql-JWT.git
 ```
 
 If you use https, use this instead
 
 ```bash
-git clone https://github.com/ammezie/codebits-api.git
+git clone https://github.com/Ravi1mca/Graphql-JWT.git
 ```
 
 After cloning,run:
@@ -28,6 +28,7 @@ Then run:
 
 ```bash
 php artisan key:generate
+php artisan jwt:secret
 ```
 
 ### Prerequisites
@@ -51,6 +52,3 @@ and visit [http://localhost:8000/graphiql](http://localhost:8000/graphiql) to se
 * [Laravel](https://laravel.com) - The PHP Framework For Web Artisans
 * [GraphQL](https://graphql.org) - A query language for your API
 
-## Acknowledgments
-
-* [laravel-graphql](https://github.com/Folkloreatelier/laravel-graphql)
